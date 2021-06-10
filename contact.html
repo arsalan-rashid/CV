@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact</title>
+</head>
+
+<body bgcolor=azure>
+  <table width=35% align=center>
+    <tr>
+      <td><a href="home.html">Home</a></td>
+      <td><a href="projects.html">Projects</a></td>
+      <td><a href="contact.html">Contact</a></td>
+    </tr>
+  </table>
+  <h1>Contact Me</h1>
+  <p>You can contact me on the following:</p>
+  <table cellpadding=10px border=1>
+    <tr>
+      <th>Email</th>
+      <th>Phone</th>
+      <th>Address</th>
+    </tr>
+    <tr>
+      <td>arsalan@itpt.co.uk</td>
+      <td>0141 429 2922</td>
+      <td>50 Darnley Street, Glasgow, G41 2SE</td>
+    </tr>
+  </table>
+
+
+  <form action="http://ss1.ciwcertified.com/cgi-bin/process.pl" method="post">
+    <br>
+
+
+<fieldset>
+
+<legend>Personal Information</legend>
+
+    <label>First Name: </label>
+    <input name="First Name" type="text"><br>
+
+    <label>Last Name: </label>
+    <input name="Last Name" type="text"><br>
+
+    <label>Email address:</label>
+    <input name="email" type="email"><br>
+
+    <label>Choose Password:</label>
+    <input name="password" type="password"><br>
+
+    <label>Date of Birth: </label>
+    <input name="dob" type="date"><br>
+
+</fieldset>
+
+<fieldset>
+  <legend>More Details</legend>
+    <label>Choose a paint color:</label>
+    <input name="color" type="color"><br>
+
+    <label>Upload your CV</label>
+    <input name="file" type="file"><br>
+
+
+    <label>Message</label>
+    <textarea name="message" name="" rows="8" cols="80"></textarea><br>
+</fieldset>
+
+<fieldset>
+<legend>Professional Meetup</legend>
+    <p>Choose the Meeting day:</p>
+    <input type="radio" name="meeting-day" value="Mon">
+    <label>Mon</label><br>
+
+    <input type="radio" name="meeting-day" value="Tue" checked>
+    <label>Tues</label><br>
+
+    <input type="radio" name="meeting-day" value="Wed">
+    <label>Wed</label><br>
+
+    <input type="radio" name="meeting-day" value="Thus">
+    <label>Thur</label><br>
+
+    <input type="radio" name="meeting-day" value="Fri">
+    <label>Fri</label><br>
+
+    <label for="services">Choose the Service you want to discuss:</label>
+    <input list="services-names" name="services" id="services">
+
+    <datalist id="services-names">
+      <option value="Web Development">
+      <option value="Web Design">
+      <option value="App Development">
+      <option value="Web Security">
+    </datalist><br>
+
+</fieldset>
+    <input type="submit">
+  </form>
+
+
+</body>
+
+</html>
